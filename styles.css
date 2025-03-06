@@ -1,0 +1,81 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #7d2ae8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 850px;
+    height: 450px;
+    background-color: #fff;
+    gap: 10px;
+    justify-content: center;
+    padding: 50px;
+}
+
+input {
+    display: block; 
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #A6ACB7;
+    width: 99%;
+    font-size: large;
+    padding-bottom: 10px;
+}
+
+.login{
+    width: 50%;
+    height: 100%;
+    margin-top: 35px;
+}
+
+.form-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+    font-size: 50px;
+    height: 300px;
+}
+
+#email{
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #7d2ae8;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: 600;
+    transition: 0.3s;
+    weight: 100%;
+    margin-top: 10px;
+    height: 50px;
+}
+
+.key-renew{
+    font-size: 16px;
+    color:rgb(27, 85, 233);
+    text-align: start;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+.info{
+    width: 50%;
+    height: 100%;
+    margin-top: 35px;
+    text-align: center;
+}
+
