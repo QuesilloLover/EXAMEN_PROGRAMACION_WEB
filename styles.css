@@ -142,7 +142,7 @@ button {
     }
 
     .login {
-        width: 100%;
+        width: 80%;
         padding: 20px;
     }
 
@@ -157,10 +157,6 @@ button {
 
     .info::before {
         background-color: rgba(125, 42, 232, 0.7);
-    }
-
-    .login{
-        width: 80%;
     }
 }
 
