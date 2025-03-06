@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'montserrat', sans-serif;
     background-color: #7d2ae8;
     margin: 0;
     padding: 0;
@@ -11,12 +11,11 @@ body {
 
 .container {
     display: flex;
-    width: 850px;
+    width: 950px;
     height: 450px;
     background-color: #fff;
     gap: 10px;
     justify-content: center;
-    padding: 50px;
 }
 
 input {
@@ -34,6 +33,12 @@ input {
     width: 50%;
     height: 100%;
     margin-top: 35px;
+    margin-left: 20px;
+    
+}
+
+h1 {
+    font-weight: 400;
 }
 
 .form-info{
@@ -47,6 +52,18 @@ input {
 
 #email{
     margin-bottom: 20px;
+}
+
+#register {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+strong {
+    color: #7d2ae8; 
+    font-weight: 400;
+    cursor: pointer;
 }
 
 button {
@@ -75,7 +92,19 @@ button {
 .info{
     width: 50%;
     height: 100%;
-    margin-top: 35px;
-    text-align: center;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url('img-ulsa.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.info-text{
+    color: #fff;
+    font-weight: 600;
 }
 
